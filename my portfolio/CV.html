@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #DFFFE0; /* pastel mint green */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #E6E6FA; /* pastel lavender */
+            padding: 30px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #8E44AD; /* deep pastel purple */
+        }
+
+        h2 {
+            color: #48C9B0; /* pastel teal */
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .job, .edu, .cert {
+            margin-bottom: 15px;
+        }
+
+        .job-title, .edu-degree, .cert-name {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .job-duration, .edu-duration, .cert-duration {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <h1>Devi Bhavani A.</h1>
+        <h2>Curriculum Vitae</h2>
+
+        <!-- Education Section -->
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <div class="edu">
+                <p class="edu-degree">B.Tech in Artificial Intelligence and Data Science</p>
+                <p class="edu-duration">Rajagiri School of Engineering and Technology | 2023 - Present</p>
+            </div>
+            <div class="edu">
+                <p class="edu-degree">Higher School</p>
+                <p class="edu-duration">Sabarigiri English School Anchal | 2022 - 2023</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, Java, SQL, C</li>
+                
+            </ul>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="section" id="certifications">
+            <h2>Certifications</h2>
+            <div class="cert">
+                <p class="cert-name">Python</p>
+                <p class="cert-duration">Kaggle | 2024</p>
+            </div>
+            <div class="cert">
+                <p class="cert-name">Java 11 Essentials</p>
+                <p class="cert-duration">Springboard | 2024</p>
+            </div>
+        </div>
+
+        <!-- Work / Academic Experience Section -->
+        <div class="section" id="experience">
+            <h2>Work / Academic Experience</h2>
+            <div class="job">
+                <p class="job-title">Intern – Deep Learning Project</p>
+                <p class="job-duration">Digital University Kerala | 2 June 2024 - 23 June 2024</p>
+                <ul>
+                    <li>Using Transformer Model for extracting tables from documented images.</li>
+                    <li>Worked on preprocessing and cleaning large data sets using Python.</li>
+                </ul>
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
